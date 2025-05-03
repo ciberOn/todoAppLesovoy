@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    min-height: 99vh;
+    width: 100%;
+    background: linear-gradient(rgb(42, 42, 42), violet);
+    margin: 20px;
+    color: rgb(167, 45, 194);
+}
+
+.main-container{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.btn_sumbit{
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border-radius: 5 px;
+}
+
+.btn_sumbit:hover{
+    transition: 1s;
+    background-color: rgb(157, 0, 255);
+    color:rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+#todo-input{
+    background-color: rgba(103, 84, 84, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 4px;
+    margin-right: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+.todo-items{
+    background-color: rgba(103, 84, 84, 0);
+    border: 2px solid rgb(174, 0, 255);
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+    background: none;
+    width: 300px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.todo-items{
+    background: none;
+}
+.text{
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+}
